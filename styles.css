@@ -1,13 +1,16 @@
-body {
+/* Global page styling */body {
     font-family: Cambria, serif;
     margin: 2rem;
     background-color: #f5f5f5;
+    color: #333;
 }
 
+/* Heading */
 h1 {
     color: #003366;
 }
 
+/* Blockquote styling */
 blockquote {
     font-style: italic;
     border-left: 4px solid #003366;
@@ -15,6 +18,7 @@ blockquote {
     color: #333;
 }
 
+/* Navigation bar list layout */
 nav ul {
     list-style: none;
     padding: 0;
@@ -33,6 +37,11 @@ nav a {
 nav a:hover {
     color: #0066cc;
     text-decoration: underline;
+}
+
+/* Visited link style */
+nav a:visited {
+    color: #4a4a4a;
 }
 
 
